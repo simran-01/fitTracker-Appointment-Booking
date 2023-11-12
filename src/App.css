@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* home */
+
+.home-logo{
+  color: #F1B461;
+  padding-left: 2.5rem;
+}
+.home-logo span, .slogan span{
+  color: rgb(110, 110, 110);
+}
+
+.calendar-btn, .appointment-btn{
+  background-color: #f5af4c;
+  color: white;
+  border: 1px solid rgb(254, 243, 243);
+  border-radius: 0.3rem;
+  padding: 1.2rem;
+  width: 45%;
+  font-size: 1.15rem;
+  cursor: pointer;
+  font-weight: 550;
+  font-family: "Quicksand";
+}
+
+.calendar-btn:hover,.appointment-btn:hover{
+  opacity: 0.96;
+  border-color: rgb(107, 106, 106);
+}
+.appointment-btn{
+  margin-left: 0.5rem;
+}
+.landing-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding: 4.5rem 0;
+    
+}
+.slogan{
+  font-size: 2rem;
+  color: #F1B461;
+}
+
+.landing-page div{
+  width: 75%;
+}
+
+.landing-content{
+  font-size: 1.15rem;
+  font-weight: 650;
+  color:  rgb(110, 110, 110);
+  text-align: center;
+}
+
+@media  screen and (max-width:900px){
+  .landing-page{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    text-align: center;
+  }
+  .landing-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .landing-page div{
+    width: 90%;
+  }
+  
+  .slogan{
+    font-size: 1.5rem;
+  }
+  .home-logo{
+    padding-left: 2.5rem;
+  }
+  .calendar-btn, .appointment-btn{   
+    padding: 1rem;
+    width: 75%;
+    text-align: center;
+    font-size: 1.15rem;
+  
+  }
+  .appointment-btn{
+    margin-top: 0.5rem;
+  }
+ 
+}
+
+@media  screen and (min-width:901px) and (max-width:1246px){
+  .calendar-btn, .appointment-btn{   
+    width: 75%;
+    text-align: center;
+    padding: 0.8rem;
+  
+  }
+  .appointment-btn{
+    margin-top: 0.3rem;
+  }
+} 
+
+/* end home */
+
+.appointment-header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.add-appointment-form-bg{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.add-appointment-form-container{
+  width: 500px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+
+.form-controls{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.form-input{
+  width: 48%;
+  padding: 1rem;
+}
+
+.add-appointment-form-container button{
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem 0;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.close-form-icon{
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.add-new-button{
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0.6rem 1.5rem;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.appointment-tag{
+  background-color:#f8d6a6;
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.extra-appointment-field-container{
+  margin: 1rem 0;
+}
+
+.extra-appointment-field {
+  width: 100%;
+}
+
+.table-head{
+  background-color:#faedda;
+  
+}
+
+.table-head span{
+  color: rgb(110, 110, 110);
+  font-weight: 900;
+  font-family: "Quicksand";
+  font-size:1rem;
+}
+
+.save-appointment{
+  background-color:#f5af4c;
+  color: white;
+}
+
+
+
