@@ -51,12 +51,11 @@
   ![newcalendar](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/476ed8a5-675e-4c3e-a8c9-c60917a52327)
 
 After interacting with fitTracker i.e whenever you add , edit or delete appointments you will receive beautiful notifications at the top right corner which is added using react-toastify.
-1. Appointment created
-  ![notifycreate](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/dbd123cf-4127-497e-951d-2a7cb9f2d900)
-2. Edited
-  ![notifyedit](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/da046d05-74fc-4de5-abc0-c067c84cf801)
-3. Deleted
-  ![notifydelete](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/e4909551-a55d-4dab-b65b-6937d566e35e)
+ 1.  ![notifycreate](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/dbd123cf-4127-497e-951d-2a7cb9f2d900)
+ 2.  ![notifyedit](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/da046d05-74fc-4de5-abc0-c067c84cf801)
+ 3.  ![notifydel](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/da5004cf-4117-4916-960a-33db1ae68a36)
+
+ 
 
 
 
