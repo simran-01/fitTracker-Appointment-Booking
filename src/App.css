@@ -195,6 +195,10 @@
 .save-appointment{
   background-color:#f5af4c;
   color: white;
+  font-size: 0.95rem;
+}
+.save-appointment:hover{
+  opacity: 0.9;
 }
 
 

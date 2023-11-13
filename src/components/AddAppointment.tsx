@@ -101,17 +101,17 @@ const AddAppointment = ({
               textAlign: "center",
               fontWeight: 600,
               fontFamily: "sans-serif",
-              fontSize: 12,
+              fontSize: "0.9rem",
               marginBottom: "1rem",
               cursor: "pointer",
-              color: "blueviolet",
+              color: "#F1B461",
             }}
             onClick={() => {
               setNumOfAppointment((prevNum) => (prevNum += 1));
               setAppointments((prev) => [...prev, dayjs().add(1, "day")]);
             }}
           >
-            Add More Appointment
+            Add More Appointments?
           </div>
  
           {numOfAppointment > 1 &&

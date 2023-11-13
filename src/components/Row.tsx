@@ -237,7 +237,7 @@ const Row = ({
         )}
       </TableCell>
       <DeleteModal
-        title="Delete Record"
+        title="Do you want to delete the record?"
         open={deleteModalOpen}
         handleClose={() => setDeleteModalOpen(false)}
         handleDelete={() => handleDelete(id)}
@@ -270,13 +270,13 @@ const DeleteModal = ({
       onClose={handleClose}
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
-      style={{ display: "flex", justifyContent: "center", textAlign: "center" }}
+      style={{ display: "flex", justifyContent: "center", textAlign: "center"}}
     >
       <DialogTitle id="alert-dialog-title">{title}</DialogTitle>
 
       <DialogActions>
-        <Button onClick={handleClose}>Cancel</Button>
-        <Button style={{ color: "red" }} onClick={handleDelete}>
+        <Button onClick={handleClose} style={{color:"#195fb0",fontWeight:"550"}}>Cancel</Button>
+        <Button style={{ color: "#bd020e",fontWeight:"550" }} onClick={handleDelete}>
           Delete
         </Button>
       </DialogActions>
