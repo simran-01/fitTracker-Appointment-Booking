@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
+# fitTracker - Appointment Booking System For Fitness Trainers #
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction ##
 
-Currently, two official plugins are available:
+*fitTracker is an appointment scheduling system designed for fitness trainers to effortlessly maintain and manage their client's appointment details.
+*It provides with various functionalities to ease the job of trainers which includes adding of new appointments (multiple appointments for same client is also possible), editing appointments, deleting appointments and for multiple appointments case trainer can delete individual appointment as well.
+*It also includes a calendar which displays name of each client who have appointment with the trainer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology and Libraries Used ##
+- Frontend Design
+   - React JS
+   - Material UI                  
+- Notifications or Toasts
+   - Toastify
+- Calendar
+   - react-big-calendar
 
-## Expanding the ESLint configuration
+## How to Setup ##
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
+### Installation ###
+#### 1. Git clone the repsoitory or download the zip file ####
+#### 2. Execute this command in project directory ####
 ```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
+    npm install
+   },
+```
+*All the necessary dependencies and libraries will be installed after execution of this command.
+#### 3. Run the project in local server ####
+```js
+    npm run dev
    },
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
