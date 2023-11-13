@@ -1,4 +1,4 @@
-# fitTracker - Appointment Booking System For Fitness Trainers #
+# fitTracker - Appointment Scheduling System For Fitness Trainers #
 
 ## Introduction ##
 
