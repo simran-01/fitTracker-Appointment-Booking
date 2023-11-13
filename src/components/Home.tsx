@@ -7,10 +7,6 @@ interface props {
 const Home = ({ setPage }: props) => {
   return (
     <>
-      <h1 className="home-logo">
-        {" "}
-        <span>fit</span>Tracker
-      </h1>
       <div className="landing-page">
         <div className="home-image">
           <img src="images/home-image.png" width="85%" />

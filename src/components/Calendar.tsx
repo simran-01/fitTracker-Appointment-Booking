@@ -62,7 +62,7 @@ const CalendarAppointment = ({ appointments }: props) => {
         events={mergedEvents}
         startAccessor="start"
         endAccessor="end"
-        style={{ height: "90vh" }}
+        style={{ height: "85vh", paddingLeft: '2.5rem', paddingRight: '2.5rem'}}
       />
     </div>
   );

@@ -9,7 +9,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./components/Home";
 import Calendar from "./components/Calendar";
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 export interface AppointmentType {
   id: string;
@@ -43,6 +43,20 @@ function App() {
 
   return (
     <>
+     <h1
+        className="home-logo"
+        style={{ cursor: "pointer" }}
+        onClick={() => setPage("home")}
+      >
+        {" "}
+        <span>fit</span>Tracker
+        {page !== "home" && (
+          <>
+            <br />
+            <ArrowBackIcon />
+          </>
+        )}
+      </h1>
       {page === "home" ? (
         <Home setPage={setPage} />
       ) : page==="calendar"? <Calendar appointments={appointments}/>: (
