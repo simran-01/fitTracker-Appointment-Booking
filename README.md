@@ -11,7 +11,7 @@
    - React JS
    - Material UI                  
 - Notifications or Toasts
-   - Toastify
+   - react-toastify
 - Calendar
    - react-big-calendar
 
