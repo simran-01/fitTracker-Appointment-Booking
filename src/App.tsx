@@ -31,10 +31,33 @@ function App() {
     {
       id: "124",
       firstName: "Simran",
-      lastName: "Chopra",
+      lastName: "Wilson",
       location: "Pune",
       appointments: [dayjs().add(1,'day')],
     },
+    {
+      id: "125",
+      firstName: "Arzoo",
+      lastName: "Stephen",
+      location: "UK",
+      appointments: [dayjs().add(2,'day'),dayjs().add(3,'hour')],
+    },
+    {
+      id: "126",
+      firstName: "John",
+      lastName: "Washington",
+      location: "London",
+      appointments: [dayjs().add(4,'day'),dayjs().add(6,'day')],
+    },
+    {
+      id: "127",
+      firstName: "Rosie",
+      lastName: "Khan",
+      location: "Bangalore",
+      appointments: [dayjs().add(5,'day')],
+    },
+
+   
   ]);
 
   const [showAddNew, setShowAddNew] = useState(false);
