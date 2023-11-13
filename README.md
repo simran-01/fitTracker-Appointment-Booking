@@ -50,10 +50,18 @@
 - Now to check appointments in calendar click on "Show Calendar" button available on home page.
   ![newcalendar](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/476ed8a5-675e-4c3e-a8c9-c60917a52327)
 
-After interacting with fitTracker i.e whenever you add , edit or delete appointments you will receive beautiful notifications at the top right corner which is added using react-toastify.
-![notifycreate](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/dbd123cf-4127-497e-951d-2a7cb9f2d900/200x200)
-![notifyedit](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/da046d05-74fc-4de5-abc0-c067c84cf801/200x200)
-![notifydel](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/da5004cf-4117-4916-960a-33db1ae68a36/200x200)
+- After interacting with fitTracker i.e whenever you add , edit or delete appointments you will receive beautiful notifications at the top right corner 
+  which is added using react-toastify.
+
+  ![create](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/481ef8fe-b9b3-4814-9dba-8cf6bf966b16)
+  ![edit](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/05cfd544-aa49-46d8-b815-94adc5690ebd)
+  ![notifydel](https://github.com/simran-01/fitTracker-Appointment-Booking/assets/61753575/6dc529fe-0909-4ee7-acac-0243d366746f)
+
+
+
+  
+
+
 
  
 
